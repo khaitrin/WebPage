@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(249, 248, 246);
+  height: 100vh;
+
+}
+
+nav {
+  background-color: rgb(120, 112, 102);
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  border: 0.5px solid rgba(0, 0, 0, 0.687);
+  gap: 2px;
+}
+
+.container-logo {
+  width: 20px;
+  height: auto;
+}
+
+.navlogo {
+  width: 50px;
+  height: 50px;
+  margin: 5px 20px;
+}
+
+.links {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+
+.links li {
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+.links li:hover {
+  background-color: rgb(156, 148, 137);
+}
+
+.content {
+  width: 100vw;
+  height: 80%;
+  display: flex;
+  gap: 10px;
+}
+
+.section-content {
+  width: 50%;
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.slider-container {
+
+  width: 100%;
+  height: 80%;
+  background-color: blue;
+}
+
+.buttons-container  {
+  width:100%;
+  height: 20%;
+  background-color: brown;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.action-button {
+    height: auto;
+    padding: 10px 30px;
+    margin: auto;
+    background-color: rgb(217, 217, 214);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 13.5%;
+  background-color: aqua;
+}
